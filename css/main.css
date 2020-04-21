@@ -1,2 +1,34 @@
-font-family: 'Assistant', sans-serif;
-font-family: 'Martel', serif;
+html {
+  font: normal 100%/1.5 'Martel', serif;
+  background-color: #fff;
+  color: #000;
+}
+
+h1 {
+  font-family: 'Assistant', sans-serif;
+}
+
+header {
+  justify-content: space-between;
+  background-color: #daa520;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+button {
+  background-color: #191970;
+  border-radius: 5px;
+  text-align: center;
+  padding: .5em;
+  color: #fff;
+}
+
+button:hover {
+  background-color: #daa520;
+  color: #000;
+}
+
+footer {
+  justify-content: space-between;
+  background-color: #daa520;
+}
