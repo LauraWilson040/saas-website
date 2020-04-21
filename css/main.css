@@ -1,11 +1,11 @@
 html {
-  font: normal 100%/1.5 'Martel', serif;
+  font: normal 100%/1.5 Martel, serif;
   background-color: #fff;
   color: #000;
 }
 
 h1 {
-  font-family: 'Assistant', sans-serif;
+  font-family: Assistant, sans-serif;
 }
 
 header {
