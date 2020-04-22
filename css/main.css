@@ -56,6 +56,19 @@ p {
   color: #fff;
 }
 
+.whoweare,
+caption {
+  color: #191970;
+}
+
+.yes {
+  color: #006400;
+}
+
+.no {
+  color: #8B0000;
+}
+
 footer {
   background-color: #daa520;
   text-align: right;
