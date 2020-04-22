@@ -5,7 +5,6 @@ html {
 }
 
 header {
-  justify-content: space-between;
   background-color: #daa520;
   list-style-type: none;
   text-decoration: none;
@@ -16,18 +15,12 @@ h1 {
 }
 
 nav a {
-  justify-content: space-between;
   list-style-type: none;
   text-decoration: none;
   color: #000;
 }
 
-.banner-image {
-  position: relative;
-}
-
 .banner-title {
-  position: absolute;
   color: #fff;
   width: 100%;
   top: 90px;
@@ -37,14 +30,11 @@ nav a {
   background-color: #daa520;
   border-color: #daa520;
   border-radius: 10px;
-  position: relative;
-  text-align: center;
-  padding: .5em;
   color: #000;
 }
 
 .signup {
-  left: 180px;
+  left: 175px;
   bottom: 110px;
 }
 
@@ -57,7 +47,7 @@ p {
 }
 
 .products {
-  left: 145px;
+  left: 140px;
 }
 
 .btn:hover {
@@ -66,16 +56,9 @@ p {
   color: #fff;
 }
 
-caption,
-th,
-td {
-  text-align: center;
-}
-
 footer {
-  justify-content: space-between;
   background-color: #daa520;
-  text-align: center;
+  text-align: right;
 }
 
 embed:focus {
