@@ -4,10 +4,6 @@ html {
   color: #000;
 }
 
-h1 {
-  font-family: Assistant, sans-serif;
-}
-
 header {
   justify-content: space-between;
   background-color: #daa520;
@@ -15,7 +11,32 @@ header {
   text-decoration: none;
 }
 
-button {
+h1 {
+  font-family: Assistant, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  display: inline;
+  padding: 0;
+  margin: 0;
+}
+
+.banner {
+  position: relative;
+  display: block;
+}
+
+.banner-title {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  display: flex;
+  width: 100%;
+  left: 50%;
+  top: 50%;
+}
+
+.btn {
   background-color: #191970;
   border-radius: 5px;
   text-align: center;
@@ -23,9 +44,13 @@ button {
   color: #fff;
 }
 
-button:hover {
+.btn a:hover {
   background-color: #daa520;
   color: #000;
+}
+
+img {
+  display: inline;
 }
 
 footer {
