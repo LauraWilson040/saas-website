@@ -26,6 +26,15 @@ nav a {
   top: 90px;
 }
 
+.math {
+  color: #000;
+  top: 140px;
+}
+
+.sign-title {
+  top: 140px;
+}
+
 .btn {
   background-color: #daa520;
   border-color: #daa520;
@@ -38,7 +47,7 @@ nav a {
   bottom: 110px;
 }
 
-.skyscraper {
+.sideimg {
   width: 100%;
 }
 
