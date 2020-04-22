@@ -9,34 +9,45 @@ header {
   background-color: #daa520;
   list-style-type: none;
   text-decoration: none;
+  color: #000;
 }
 
 h1 {
   font-family: Assistant, sans-serif;
+  color: #000;
 }
 
-ul {
+nav {
   list-style-type: none;
+  text-decoration: none;
+  color: #000;
+}
+
+ul li {
+  list-style-type: none;
+  text-decoration: none;
   display: inline;
   padding: 0;
 }
 
 .banner-image {
   position: relative;
-  display: block;
+  overflow: hidden;
 }
 
 .banner-title {
-  transform: translate(-50%, -50%);
   position: absolute;
-  display: flex;
+  text-align: center;
   width: 100%;
-  left: 50%;
-  top: 50%;
+  color: #fff;
+  bottom: 0;
+  left: 0;
 }
 
 .btn {
   background-color: #191970;
+  align-items: center;
+  position: absolute;
   border-radius: 5px;
   text-align: center;
   padding: .5em;
@@ -54,6 +65,12 @@ img {
 
 embed:focus {
   outline: none;
+}
+
+caption,
+th,
+td {
+  text-align: center;
 }
 
 footer {
