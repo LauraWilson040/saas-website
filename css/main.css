@@ -24,15 +24,13 @@ nav a {
 
 .banner-image {
   position: relative;
-  overflow: hidden;
 }
 
 .banner-title {
   position: absolute;
-  text-align: center;
   color: #fff;
   width: 100%;
-  top: 450px;
+  top: 90px;
 }
 
 .btn {
@@ -41,13 +39,22 @@ nav a {
   border-radius: 10px;
   position: relative;
   text-align: center;
-  padding: 1em;
+  padding: .5em;
   color: #000;
 }
 
 .signup {
-  left: 900px;
-  bottom: 500px;
+  left: 180px;
+  bottom: 110px;
+}
+
+.skyscraper {
+  display: inline;
+  width: 100%;
+}
+
+p {
+  max-width: 50%;
 }
 
 .products {
@@ -60,7 +67,6 @@ nav a {
   border-color: #191970;
   color: #fff;
 }
-
 
 caption,
 th,
