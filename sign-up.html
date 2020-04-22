@@ -42,45 +42,53 @@
 
   <section class="contact pad-t-2 pad-b-2">
     <div class="max-length">
-      <h1>Sign Up</h1>
-      <form class="push-0" method="POST" action="https://formspree.io/wils0845@algonquinlive.com">
+
+  <form class="push-0" method="POST" action="https://formspree.io/wils0845@algonquinlive.com">
+
+      <fieldset>
+        <legend class="giga italic">Sign Up</legend>
+
         <div class="push">
-          <label for="name">First Name</label>
+          <label for="name">Name</label>
           <input id="name" name="name" required>
         </div>
-        <div class="push">
-          <label for="name">Last Name</label>
-          <input id="name" name="name" required>
-        </div>
+
         <div class="push">
           <label for="email">Email</label>
           <input id="email" type="email" placeholder="me@me.com" name="email" required>
         </div>
+
         <div class="push">
           <label for="password">Password</label>
           <input id="password" type="password" name="password" required>
         </div>
+
         <div class="push">
-          <label for="conpassword">Confirm Password</label>
-          <input id="conpassword" type="conpassword" name="conpassword" required>
+          <label for="checkbox">Free</label>
+          <input id="checkbox" type="checkbox" name="checkbox" required>
         </div>
+
+        <label for="membership">Membership</label>
+        <select id="membership" name="membership">
+          <option>Free</option>
+          <option>Premium ($10/Month)</option>
+        </select>
+      </div>
+
         <div class="push">
-          <button class="btn btn-light mega" type="choose">Free</button>
+          <label for="number">Card #</label>
+          <input id="number" type="number" name="number" required>
         </div>
-        <div class="push">
-          <button class="btn btn-light mega" type="choose">Premium</button>
-        </div>
-        <div class="push">
-          <label for="card">Card #</label>
-          <input id="card" type="card" name="card" required>
-        </div>
+
         <div class="push">
           <label for="date">Expiry Date</label>
           <input id="date" type="date" name="date" required>
         </div>
+
         <div class="push">
           <button class="btn btn-light mega" type="submit">Register</button>
         </div>
+
       </form>
     </div>
   </section>
