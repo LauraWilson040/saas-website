@@ -9,25 +9,17 @@ header {
   background-color: #daa520;
   list-style-type: none;
   text-decoration: none;
-  color: #000;
 }
 
 h1 {
   font-family: Assistant, sans-serif;
-  color: #000;
 }
 
-nav {
+nav a {
+  justify-content: space-between;
   list-style-type: none;
   text-decoration: none;
   color: #000;
-}
-
-ul li {
-  list-style-type: none;
-  text-decoration: none;
-  display: inline;
-  padding: 0;
 }
 
 .banner-image {
@@ -38,34 +30,37 @@ ul li {
 .banner-title {
   position: absolute;
   text-align: center;
-  width: 100%;
   color: #fff;
-  bottom: 0;
-  left: 0;
+  width: 100%;
+  top: 450px;
 }
 
 .btn {
-  background-color: #191970;
-  align-items: center;
-  position: absolute;
-  border-radius: 5px;
-  text-align: center;
-  padding: .5em;
-  color: #fff;
-}
-
-.btn a:hover {
   background-color: #daa520;
+  border-color: #daa520;
+  border-radius: 10px;
+  position: relative;
+  text-align: center;
+  padding: 1em;
   color: #000;
 }
 
-img {
-  display: inline;
+.signup {
+  left: 900px;
+  bottom: 500px;
 }
 
-embed:focus {
-  outline: none;
+.products {
+  left: 100px;
+  top: 10px;
 }
+
+.btn:hover {
+  background-color: #191970;
+  border-color: #191970;
+  color: #fff;
+}
+
 
 caption,
 th,
@@ -77,4 +72,8 @@ footer {
   justify-content: space-between;
   background-color: #daa520;
   text-align: center;
+}
+
+embed:focus {
+  outline: none;
 }
